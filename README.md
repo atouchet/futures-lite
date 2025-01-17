@@ -1,6 +1,6 @@
 # futures-lite
 
-[![Build](https://github.com/smol-rs/futures-lite/workflows/Build%20and%20test/badge.svg)](
+[![Build](https://github.com/smol-rs/futures-lite/actions/workflows/ci.yml/badge.svg)](
 https://github.com/smol-rs/futures-lite/actions)
 [![License](https://img.shields.io/badge/license-Apache--2.0_OR_MIT-blue.svg)](
 https://github.com/smol-rs/futures-lite)
@@ -11,13 +11,14 @@ https://docs.rs/futures-lite)
 
 A lightweight async prelude.
 
-This crate is a subset of [futures] that compiles an order of magnitude faster, fixes minor
-warts in its API, fills in some obvious gaps, and removes almost all unsafe code from it.
+This crate is a subset of [futures] that compiles an order of magnitude faster,
+fixes minor warts in its API, fills in some obvious gaps, and removes almost all
+unsafe code from it.
 
-In short, this crate aims to be more enjoyable than [futures] but still fully compatible with
-it.
+In short, this crate aims to be more enjoyable than [futures] but still fully
+compatible with it.
 
-The API for this crate is intentionally constrained. Please consult the 
+The API for this crate is intentionally constrained. Please consult the
 [features list] for APIs that are occluded from this crate.
 
 [futures]: https://docs.rs/futures
@@ -39,8 +40,10 @@ fn main() {
 
 Licensed under either of
 
- * Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
- * MIT license ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
+ * Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or
+   https://www.apache.org/licenses/LICENSE-2.0)
+ * MIT license ([LICENSE-MIT](LICENSE-MIT) or
+   https://opensource.org/license/mit)
 
 at your option.
 
